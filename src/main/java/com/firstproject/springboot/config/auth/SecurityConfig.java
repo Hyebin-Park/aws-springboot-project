@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
-    private final CustomeOAuth2UserService CustomeOAuth2UserService;
+    private final com.firstproject.springboot.config.auth.CustomeOAuth2UserService CustomeOAuth2UserService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
